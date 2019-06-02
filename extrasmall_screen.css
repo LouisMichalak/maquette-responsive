@@ -1,0 +1,138 @@
+ul {
+    padding: 0;
+}
+
+/*wrappers*/
+.wrapper--before-header {
+    width: 300px;
+    margin: auto;
+}
+
+.wrapper--header {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper--carousel {
+    width: 300px;
+    padding-top: 10px;
+    height: 165px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper--main {
+    width: 300px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.wrapper--infos {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper--footer {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+/*WRAPPERS*/
+
+/*header*/
+.nav {
+    width: 100%;
+}
+
+.header--logo {
+    margin: auto;
+}
+
+.nav--list {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav--listel {
+    border-top: 1px solid white;
+}
+
+.carousel--link {
+    font-size: 10px;
+}
+/*HEADER*/
+
+/*carousel*/
+.carousel--div--link {
+    height: 39.5%;
+    display: flex;
+    color: white;
+    align-items: flex-end;
+}
+
+.carousel--link {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 2% 70.8% 2% 3%;
+}
+/*CAROUSEL*/
+
+/*main*/
+.main--flag--img {
+    width: 90%;
+}
+
+.main--flag--div {
+    margin-bottom: 50px;
+}
+
+.main--describes {
+    flex-direction: column;
+    width: 100%;
+}
+
+.main--flags {
+    flex-direction: column;
+    width: 107%;
+    margin: auto;
+}
+
+.main--flag--div--brazil {
+    display: none;
+}
+
+.main--flag--div--algeria {
+    display: none;
+}
+/*MAIN*/
+
+/*infos part*/
+.infos--first--part {
+    flex-direction: column;
+}
+
+.infos--imgs {
+    padding-right: 15px;
+    height: 50px;
+}
+/*INFOS PART*/
+
+/*footer*/
+.footer--nav--links {
+    font-size: 12px;
+    margin-right: 10px;
+}
+/*FOOTER*/

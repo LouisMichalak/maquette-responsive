@@ -1,0 +1,100 @@
+ul {
+    padding: 0;
+}
+
+/*wrappers*/
+.wrapper--before-header {
+    width: 860px;
+    margin: auto;
+}
+
+.wrapper--header {
+    width: 860px;
+    margin: auto;
+}
+
+.wrapper--carousel {
+    width: 860px;
+    height: 415px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper--main {
+    width: 860px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.wrapper--infos {
+    width: 860px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper--footer {
+    width: 860px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+/*WRAPPERS*/
+
+/*header*/
+.nav--dropdown--content--links {
+    padding: 10px 30px 10px 10px;
+}
+/*HEADER*/
+
+.nav--dropdown--content {
+    position: absolute;
+}
+/*carousel*/
+.carousel--div--link {
+    height: 39.5%;
+    display: flex;
+    color: white;
+    align-items: flex-end;
+}
+
+.carousel--link {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 2% 70.8% 2% 3%;
+}
+/*CAROUSEL*/
+
+/*main*/
+.main--flag--img {
+    width: 90%;
+}
+
+.main--flag--div {
+    margin-left: 5px;
+}
+
+.main--part--div {
+    width: 31%;
+}
+/*MAIN*/
+
+/*infos part*/
+.infos--aboutUs {
+    width: 49%;
+}
+
+.infos--whyUs {
+    width: 49%;
+}
+
+.infos--imgs {
+    padding-right: 15px;
+    height: 70%;
+    width: 70%;
+}
+/*INFOS PART*/

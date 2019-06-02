@@ -1,0 +1,104 @@
+/*wrappers*/
+.wrapper--before-header {
+    width: 1000px;
+    margin: auto;
+}
+
+.wrapper--header {
+    width: 970px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.wrapper--carousel {
+    width: 1000px;
+    height: 475px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper--main {
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.wrapper--infos {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper--footer {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+/*WRAPPERS*/
+
+/*header*/
+.nav--dropdown--content {
+    position: absolute;
+}
+
+.nav--dropdown--content--links {
+    padding: 10px 30px 10px 10px;
+}
+/*HEADER*/
+
+/*carousel*/
+.carousel--div--link {
+    height: 39.5%;
+    display: flex;
+    color: white;
+    align-items: flex-end;
+}
+
+.carousel--link {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 2% 74.5% 2% 3%;
+}
+
+/*main*/
+.main--flags {
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.main--flag--img {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.main--part--div {
+    width: 31%;
+}
+/*MAIN*/
+
+/*infos part*/
+.infos--aboutUs {
+    width: 49%;
+}
+
+.infos--whyUs {
+    width: 49%;
+}
+
+.infos--imgs {
+    padding-right: 15px;
+    height: 70%;
+    width: 70%;
+}
+/*INFOS PART*/
